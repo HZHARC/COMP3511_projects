@@ -1,0 +1,7 @@
+    In the first case, thread2 suspends thread1 after it prints out its thread
+information, so after that thread1 can use the system resources as much as it
+needs. Thus we see only after thread2 is finished and exited can thread1 be resumed
+and executed again.
+    It's just the opposite in the second case. Thread1 suspends thread2 after the
+printing of information and enjoys the system resources exclusively until it is
+finished. After that thread2 starts to be executed again and finished at the end.
