@@ -1,0 +1,91 @@
+Non-preemptive Priority scheduling
+Starting at Elapesd ticks: total 0
+Queuing threads.
+Queuing thread threadA at Time 0, priority 5, willing to burst 20 ticks
+Switching from thread "main" to thread "threadA"
+threadA, Starting Burst of 20 ticks. Elapesd ticks: total 0
+threadA, Still 19 to go. Elapesd ticks: total 1
+threadA, Still 18 to go. Elapesd ticks: total 2
+threadA, Still 17 to go. Elapesd ticks: total 3
+threadA, Still 16 to go. Elapesd ticks: total 4
+threadA, Still 15 to go. Elapesd ticks: total 5
+threadA, Still 14 to go. Elapesd ticks: total 6
+threadA, Still 13 to go. Elapesd ticks: total 7
+threadA, Still 12 to go. Elapesd ticks: total 8
+threadA, Still 11 to go. Elapesd ticks: total 9
+Queuing thread threadB at Time 10, priority 6, willing to burst 12 ticks
+threadA, Still 10 to go. Elapesd ticks: total 10
+threadA, Still 9 to go. Elapesd ticks: total 11
+threadA, Still 8 to go. Elapesd ticks: total 12
+threadA, Still 7 to go. Elapesd ticks: total 13
+threadA, Still 6 to go. Elapesd ticks: total 14
+threadA, Still 5 to go. Elapesd ticks: total 15
+Queuing thread threadC at Time 16, priority 3, willing to burst 5 ticks
+threadA, Still 4 to go. Elapesd ticks: total 16
+threadA, Still 3 to go. Elapesd ticks: total 17
+Queuing thread threadD at Time 18, priority 8, willing to burst 7 ticks
+threadA, Still 2 to go. Elapesd ticks: total 18
+threadA, Still 1 to go. Elapesd ticks: total 19
+Queuing thread threadE at Time 20, priority 9, willing to burst 13 ticks
+threadA, Still 0 to go. Elapesd ticks: total 20
+threadA, Done with burst. Elapesd ticks: total 20
+Switching from thread "threadA" to thread "threadC"
+threadC, Starting Burst of 5 ticks. Elapesd ticks: total 20
+threadC, Still 4 to go. Elapesd ticks: total 21
+threadC, Still 3 to go. Elapesd ticks: total 22
+threadC, Still 2 to go. Elapesd ticks: total 23
+threadC, Still 1 to go. Elapesd ticks: total 24
+threadC, Still 0 to go. Elapesd ticks: total 25
+threadC, Done with burst. Elapesd ticks: total 25
+Switching from thread "threadC" to thread "threadB"
+threadB, Starting Burst of 12 ticks. Elapesd ticks: total 25
+threadB, Still 11 to go. Elapesd ticks: total 26
+threadB, Still 10 to go. Elapesd ticks: total 27
+threadB, Still 9 to go. Elapesd ticks: total 28
+threadB, Still 8 to go. Elapesd ticks: total 29
+threadB, Still 7 to go. Elapesd ticks: total 30
+threadB, Still 6 to go. Elapesd ticks: total 31
+threadB, Still 5 to go. Elapesd ticks: total 32
+threadB, Still 4 to go. Elapesd ticks: total 33
+threadB, Still 3 to go. Elapesd ticks: total 34
+threadB, Still 2 to go. Elapesd ticks: total 35
+threadB, Still 1 to go. Elapesd ticks: total 36
+threadB, Still 0 to go. Elapesd ticks: total 37
+threadB, Done with burst. Elapesd ticks: total 37
+Switching from thread "threadB" to thread "threadD"
+threadD, Starting Burst of 7 ticks. Elapesd ticks: total 37
+threadD, Still 6 to go. Elapesd ticks: total 38
+threadD, Still 5 to go. Elapesd ticks: total 39
+threadD, Still 4 to go. Elapesd ticks: total 40
+threadD, Still 3 to go. Elapesd ticks: total 41
+threadD, Still 2 to go. Elapesd ticks: total 42
+threadD, Still 1 to go. Elapesd ticks: total 43
+threadD, Still 0 to go. Elapesd ticks: total 44
+threadD, Done with burst. Elapesd ticks: total 44
+Switching from thread "threadD" to thread "threadE"
+threadE, Starting Burst of 13 ticks. Elapesd ticks: total 44
+threadE, Still 12 to go. Elapesd ticks: total 45
+threadE, Still 11 to go. Elapesd ticks: total 46
+threadE, Still 10 to go. Elapesd ticks: total 47
+threadE, Still 9 to go. Elapesd ticks: total 48
+threadE, Still 8 to go. Elapesd ticks: total 49
+threadE, Still 7 to go. Elapesd ticks: total 50
+threadE, Still 6 to go. Elapesd ticks: total 51
+threadE, Still 5 to go. Elapesd ticks: total 52
+threadE, Still 4 to go. Elapesd ticks: total 53
+threadE, Still 3 to go. Elapesd ticks: total 54
+threadE, Still 2 to go. Elapesd ticks: total 55
+threadE, Still 1 to go. Elapesd ticks: total 56
+threadE, Still 0 to go. Elapesd ticks: total 57
+threadE, Done with burst. Elapesd ticks: total 57
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 57, idle 0, system 57, user 0
+Disk I/O: reads 0, writes 0
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+
+Cleaning up...
