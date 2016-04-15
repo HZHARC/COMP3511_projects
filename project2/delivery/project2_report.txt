@@ -1,0 +1,50 @@
+Question 1
+For the following charts, A="Arrival time", E="the time to start executation",
+    F="the time for the task to be finished", W="the total waiting time",
+    T="the total turn around time"
+Test 0
+    A   E   F   W   T
+A   0   0   20  0   20
+B   10  20  32  10  22
+C   16  32  37  16  21
+D   18  37  44  19  26
+E   20  44  57  24  37
+
+So the average waiting time is (0 + 10 + 16 + 18 + 24) / 5 = 13.8
+the average response time is (0 + 10 + 16 + 18 + 24) / 5 = 13.8
+the average turnaround time is ( 20 + 22 + 21 + 26 + 37 ) / 5 = 25.2
+
+Test 1
+    A   E   F   W   T
+A   0   0   20  0   20
+B   10  32  44  22  34
+C   16  20  25  4   9
+D   18  25  32  7   14
+E   20  44  57  24  37
+
+So the average waiting time is (0 + 22 + 4 + 7 + 24) / 5 = 11.4
+the average response time is (0 + 22 + 4 + 7 + 24) / 5 = 11.4
+the average turnaround time is (20 + 34 + 9 + 14 + 37) / 5 = 22.8
+
+Test 2
+    A   E   F   W   T
+A   0   0   20  0   20
+B   10  25  37  15  27
+C   16  20  25  4   9
+D   18  37  44  19  26
+E   20  44  57  24  37
+
+So the average waiting time is (0 + 15 + 4 + 19 + 24) / 5 = 12.4
+the average response time is (0 + 15 + 4 + 19 + 24) / 5 = 12.4
+the average turn around time is (20 + 27 + 9 + 26 + 37) / 5 = 23.8
+
+Question 2
+
+The FCFS is easy to implement and requires less processing for the system to put
+the tasks into the correct position (constant time complexity), but the average
+response time, the average waiting time and the average turnaround time is not that
+satisfactory. The SJF, can do much better than the FCFS in terms of the average
+waiting time, the average response time, and the average turnaround time, however
+it is more complicated in coding and need more processing for the system to put
+a task into the correct position (linear time complexity).
+
